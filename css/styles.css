@@ -1,0 +1,999 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ul.navigation li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+header.group {
+    /*box-shadow: -1px 3px 6px rgba(175, 175, 175, 0.3)*/
+}
+.content-home section {
+  margin-top: 3em;
+}
+
+/*Box de item*/
+.icon-item {
+    margin-bottom: 1.5em;
+}
+
+.card-item-box-big {
+    background: white;
+    padding: 2em 2em;
+    text-align: center;
+    border: 1px solid rgba(175, 175, 175, 0.2);
+    border-radius: 5px;
+    height: 33vh;
+    margin: 24px 0;
+}
+
+.info-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #EA0074;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info-data {
+    margin-top: 1em;
+    font-size: 10px;
+    color: #222B45;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-item-box-big:hover {
+    border-radius: 5px;
+    border: 1px solid rgba(175, 175, 175, 0.3);
+    box-shadow: -1px 3px 15px rgba(175, 175, 175, 0.3);
+    background: rgba(217, 217, 217, 0.11);
+}
+
+.card-item-small {
+    background: white;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid rgba(175, 175, 175, 0.2);
+    border-radius: 5px;
+    /*height: 250px;*/
+    margin: 8px 0;
+}
+.card-item-small:hover {
+    border-radius: 5px;
+    border: 1px solid rgba(175, 175, 175, 0.3);
+    box-shadow: 0 10px 15px rgba(175, 175, 175, 0.3);
+    background: rgba(217, 217, 217, 0.11);
+}
+footer {
+  background: #F6F9FC;
+  padding: 2em;
+}
+/*Box de item*/
+/* Overrides de iconos */
+/* CSS para cargar font source sans pro. Font gratuida con licencia de uso comercial obtenida en Google Fonts */
+/* line 7, c:/sites/static/home-pricetravel/sass/_theme.scss */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    padding: 0px;
+    position: relative;
+}
+
+/* line 12, c:/sites/static/home-pricetravel/sass/_theme.scss */
+.glyphicons,
+[class^="ptw-icon-"]:before,
+[class*=" ptw-icon-"]:before {
+    color: #666;
+    padding: 0 .25em 0 0;
+}
+
+/* line 17, c:/sites/static/home-pricetravel/sass/_theme.scss */
+.glyphicons:before {
+    color: #666;
+}
+
+/* line 23, c:/sites/static/home-pricetravel/sass/_theme.scss */
+a:hover {
+    color: #36579f;
+}
+
+/* Single Slats: no usan ul */
+/* line 31, c:/sites/static/home-pricetravel/sass/_theme.scss */
+.single-slat {
+    margin: 0 0 1em 0;
+    padding: 1em 2em 1em 1em;
+}
+
+/* line 34, c:/sites/static/home-pricetravel/sass/_theme.scss */
+.single-slat h3 {
+    font-size: 18px;
+    margin-bottom: .25em;
+}
+
+/* line 37, c:/sites/static/home-pricetravel/sass/_theme.scss */
+.single-slat h3 .glyphicons {
+    float: left;
+    marign: 0 3em 0 0;
+}
+
+/* line 42, c:/sites/static/home-pricetravel/sass/_theme.scss */
+.single-slat p {
+    margin: 0 0 0 34px;
+}
+
+/* line 45, c:/sites/static/home-pricetravel/sass/_theme.scss */
+.single-slat .meta {
+    font-size: 12px;
+    color: #777;
+    display: block;
+}
+
+/* line 53, c:/sites/static/home-pricetravel/sass/_theme.scss */
+[class^="ptw-icon-"]:before,
+[class*=" ptw-icon-"]:before {
+    font-size: 24px;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* line 60, c:/sites/static/home-pricetravel/sass/_theme.scss */
+
+
+/* line 62, c:/sites/static/home-pricetravel/sass/_theme.scss */
+header img {
+    float: left;
+    display: inline-block;
+    margin: 0 0.5em 0 0;
+}
+
+/* line 67, c:/sites/static/home-pricetravel/sass/_theme.scss */
+header h1 {
+    /*float: left;*/
+    font-size: 2.3em;
+    margin-top: 16px;
+    /*margin-left: 100px;*/
+    text-align: center;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* line 74, c:/sites/static/home-pricetravel/sass/_theme.scss */
+footer {
+    /*margin: 3em 0;*/
+}
+
+/* line 76, c:/sites/static/home-pricetravel/sass/_theme.scss */
+footer div {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* line 85, c:/sites/static/home-pricetravel/sass/_theme.scss */
+.container-wrapper .container {
+    padding: 5em 5em 5em 10em;
+}
+
+/*.container {
+    padding-left: 15px;
+
+}*/
+
+@font-face {
+    font-family: "pt-icons";
+    src: url("http://cdnpt.com/cssshared/fonts/pt-icons.eot?v=1");
+    src: url("http://cdnpt.com/cssshared/fonts/pt-icons?#iefix") format("embedded-opentype"), url("http://cdnpt.com/cssshared/fonts/pt-icons.woff?v=1") format("woff"), url("http://cdnpt.com/cssshared/fonts/pt-icons.ttf?v=1") format("truetype"), url("http://cdnpt.com/cssshared/fonts/pt-icons.svg#pt-icons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* line 16, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+[class^="ptw-icon-"]:before,
+[class*=" ptw-icon-"]:before,
+[class^="pt-icon-"]:before,
+[class*=" pt-icon-"]:before {
+    font-family: "pt-icons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 27, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-twitter:before,
+.pt-icon-twitter:before {
+    content: "a";
+}
+
+/* line 28, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-video:before,
+.pt-icon-video:before {
+    content: "b";
+}
+
+/* line 29, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-chevdown-bld:before,
+.pt-icon-chevdown-bld:before {
+    content: "c";
+}
+
+/* line 30, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-halfstar:before,
+.pt-icon-halfstar2:before {
+    content: "d";
+}
+
+/* line 31, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-logopricetravel:before,
+.pt-icon-logopricetravel:before {
+    content: "e";
+}
+
+/* line 32, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-star:before,
+.pt-icon-star:before {
+    content: "f";
+}
+
+/* line 33, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-gplus:before,
+.pt-icon-gplus:before {
+    content: "g";
+}
+
+/* line 34, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-list:before,
+.pt-icon-list:before {
+    content: "h";
+}
+
+/* line 35, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-dropdown:before,
+.pt-icon-dropdown:before {
+    content: "i";
+}
+
+/* line 36, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-facebook-sq:before,
+.pt-icon-facebook-sq:before {
+    content: "j";
+}
+
+/* line 37, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-position:before,
+.pt-icon-position:before {
+    content: "k";
+}
+
+/* line 38, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-search:before,
+.pt-icon-search:before {
+    content: "l";
+}
+
+/* line 39, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-opinion:before,
+.pt-icon-opinion:before {
+    content: "m";
+}
+
+/* line 40, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-opinion-half:before,
+.pt-icon-opinion-half:before {
+    content: "n";
+}
+
+/* line 41, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-opinion-empty:before,
+.pt-icon-opinion-empty:before {
+    content: "o";
+}
+
+/* line 42, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-departure:before,
+.pt-icon-departure:before {
+    content: "p";
+}
+
+/* line 43, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-return:before,
+.pt-icon-return:before {
+    content: "q";
+}
+
+/* line 44, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-zoomin:before,
+.pt-icon-zoomin:before {
+    content: "r";
+}
+
+/* line 45, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-discount:before,
+.pt-icon-discount:before {
+    content: "s";
+}
+
+/* line 46, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-video-sq:before,
+.pt-icon-video-sq:before {
+    content: "t";
+}
+
+/* line 47, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-picture:before,
+.pt-icon-picture:before {
+    content: "u";
+}
+
+/* line 48, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-check:before,
+.pt-icon-check:before {
+    content: "v";
+}
+
+/* line 49, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-info-circle:before,
+.pt-icon-info-circle:before {
+    content: "w";
+}
+
+/* line 50, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-airplane-up:before,
+.pt-icon-airplane-up:before {
+    content: "x";
+}
+
+/* line 51, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-bed:before,
+.pt-icon-bed:before {
+    content: "y";
+}
+
+/* line 52, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-bus:before,
+.pt-icon-bus:before {
+    content: "z";
+}
+
+/* line 53, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-calendar:before,
+.pt-icon-calendar:before {
+    content: "A";
+}
+
+/* line 54, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-people:before,
+.pt-icon-people:before {
+    content: "B";
+}
+
+/* line 55, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-chevup:before,
+.pt-icon-chevup:before {
+    content: "C";
+}
+
+/* line 56, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-chevdown:before,
+.pt-icon-chevdown:before {
+    content: "D";
+}
+
+/* line 57, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-traslado:before,
+.pt-icon-traslado:before {
+    content: "E";
+}
+
+/* line 58, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-remove:before,
+.pt-icon-remove:before {
+    content: "F";
+}
+
+/* line 59, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-city:before,
+.pt-icon-city:before {
+    content: "G";
+}
+
+/* line 60, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-supersaver:before,
+.pt-icon-supersaver:before {
+    content: "H";
+}
+
+/* line 61, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-cutlery:before,
+.pt-icon-cutlery:before {
+    content: "I";
+}
+
+/* line 62, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-suitcase:before,
+.pt-icon-suitcase:before {
+    content: "J";
+}
+
+/* line 63, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-mobile:before,
+.pt-icon-mobile:before {
+    content: "K";
+}
+
+/* line 64, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-camera:before,
+.pt-icon-camera:before {
+    content: "L";
+}
+
+/* line 65, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-shield:before,
+.pt-icon-shield:before {
+    content: "M";
+}
+
+/* line 66, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-plane-airport:before,
+.pt-icon-plane-airport:before {
+    content: "N";
+}
+
+/* line 67, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-globe:before,
+.pt-icon-globe:before {
+    content: "O";
+}
+
+/* line 68, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-heart:before,
+.pt-icon-heart:before {
+    content: "P";
+}
+
+/* line 69, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-heart-empty:before,
+.pt-icon-heart-empty:before {
+    content: "Q";
+}
+
+/* line 70, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-book:before,
+.pt-icon-book:before {
+    content: "R";
+}
+
+/* line 71, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-coffee:before,
+.pt-icon-coffee:before {
+    content: "S";
+}
+
+/* line 72, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-angle-left:before,
+.pt-icon-angle-left:before {
+    content: "T";
+}
+
+/* line 73, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-angle-right:before,
+.pt-icon-angle-right:before {
+    content: "U";
+}
+
+/* line 74, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-money:before,
+.pt-icon-money:before {
+    content: "V";
+}
+
+/* line 75, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-user-group:before,
+.pt-icon-user-group:before {
+    content: "W";
+}
+
+/* line 76, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.pw-icon-comment:before,
+.pt-icon-comment:before {
+    content: "X";
+}
+
+/* line 77, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-clock:before,
+.pt-icon-clock:before {
+    content: "Y";
+}
+
+/* line 78, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-phone:before,
+.pt-icon-phone:before {
+    content: "Z";
+}
+
+/* line 79, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-compass:before,
+.pt-icon-compass:before {
+    content: "0";
+}
+
+/* line 80, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-monument:before,
+.pt-icon-monument:before {
+    content: "1";
+}
+
+/* line 81, c:/sites/static/home-pricetravel/sass/_pt-icons.scss */
+.ptw-icon-travelinn:before,
+.pt-icon-travelinn:before {
+    content: "2";
+}
+
+/*-----------------------------ESTILOS DE BOOTSTRAP----------------------------*/
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav>li {
+    position: relative;
+    display: block;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.nav>li.disabled>a {
+    color: #777;
+}
+
+.nav>li.disabled>a:hover,
+.nav>li.disabled>a:focus {
+    color: #777;
+    text-decoration: none;
+    cursor: not-allowed;
+    background-color: #ed1556;
+}
+
+.nav .open>a,
+.nav .open>a:hover,
+.nav .open>a:focus {
+    background-color: #eee;
+    border-color: #337ab7;
+}
+
+.nav .nav-divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+.nav>li>a>img {
+    max-width: none;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+
+.nav-tabs>li>a:hover {
+    border-color: #eee #eee #ddd;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs.nav-justified {
+    width: 100%;
+    border-bottom: 0;
+}
+
+.nav-tabs.nav-justified>li {
+    float: none;
+}
+
+.nav-tabs.nav-justified>li>a {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.nav-tabs.nav-justified>.dropdown .dropdown-menu {
+    top: auto;
+    left: auto;
+}
+
+@media (min-width: 768px) {
+    .nav-tabs.nav-justified>li {
+        display: table-cell;
+        width: 1%;
+    }
+
+    .nav-tabs.nav-justified>li>a {
+        margin-bottom: 0;
+    }
+}
+
+.nav-tabs.nav-justified>li>a {
+    margin-right: 0;
+    border-radius: 4px;
+}
+
+.nav-tabs.nav-justified>.active>a,
+.nav-tabs.nav-justified>.active>a:hover,
+.nav-tabs.nav-justified>.active>a:focus {
+    border: 1px solid #ddd;
+}
+
+@media (min-width: 768px) {
+    .nav-tabs.nav-justified>li>a {
+        border-bottom: 1px solid #ddd;
+        border-radius: 4px 4px 0 0;
+        padding: 19px;
+    }
+
+    .nav-tabs.nav-justified>.active>a,
+    .nav-tabs.nav-justified>.active>a:hover,
+    .nav-tabs.nav-justified>.active>a:focus {
+        border-bottom-color: #fff;
+    }
+}
+
+.nav-pills>li {
+    float: left;
+}
+
+.nav-pills>li>a {
+    border-radius: 4px;
+}
+
+.nav-pills>li+li {
+    margin-left: 2px;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
+    color: #fff;
+    background-color: #337ab7;
+    padding: 10px;
+}
+
+.nav-stacked>li {
+    float: none;
+}
+
+.nav-stacked>li+li {
+    margin-top: 2px;
+    margin-left: 0;
+}
+
+.nav-justified {
+    width: 100%;
+}
+
+.nav-justified>li {
+    float: none;
+}
+
+.nav-justified>li>a {
+    text-align: center;
+}
+
+.nav-justified>.dropdown .dropdown-menu {
+    top: auto;
+    left: auto;
+}
+
+@media (min-width: 768px) {
+    .nav-justified>li {
+        display: table-cell;
+        width: 1%;
+    }
+
+    .nav-justified>li>a {
+        margin-bottom: 0;
+    }
+}
+
+.nav-tabs-justified {
+    border-bottom: 0;
+}
+
+.nav-tabs-justified>li>a {
+    margin-right: 0;
+    border-radius: 4px;
+}
+
+.nav-tabs-justified>.active>a,
+.nav-tabs-justified>.active>a:hover,
+.nav-tabs-justified>.active>a:focus {
+    border: 1px solid #ddd;
+}
+
+@media (min-width: 768px) {
+    .nav-tabs-justified>li>a {
+        border-bottom: 1px solid #ddd;
+        border-radius: 4px 4px 0 0;
+    }
+
+    .nav-tabs-justified>.active>a,
+    .nav-tabs-justified>.active>a:hover,
+    .nav-tabs-justified>.active>a:focus {
+        border-bottom-color: #fff;
+    }
+}
+
+
+/*-----------------------------ESTILOS PARA LA HOME----------------------------*/
+
+/*HEADER*/
+
+/*Socialmenu*/
+.list {
+    display: inline-block;
+    float: right;
+}
+
+.list>li {
+    display: inline-block;
+    /*float: right;*/
+}
+
+.list>li>a>img {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+}
+
+.list>li>a:hover>img {
+    opacity: 0.8;
+}
+
+
+/*NAVIGATION*/
+.navigation {
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 2px;
+    padding: 1em;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.navigation>li>a {
+    color: #fff;
+    border-radius: 0px;
+    padding: 15px 10px !important;
+    color: #6C757D;
+}
+
+.navigation>li>a.active {
+    background-color: #5C469C;
+    color: white
+}
+
+.navigation>li>a:hover,
+.navigation>li>a:focus {
+    background-color: #5C469C;
+    border-radius: 5px;
+    color: white;
+}
+
+.navigation>li.active>a,
+.navigation>li.active>a:hover,
+.navigation>li.active>a:focus {
+    background-color: #ed1556;
+}
+
+.navigation>li.active:first-child>a,
+.navigation>li:first-child>a:hover,
+.navigation>li:first-child>a.active {
+    border-top-left-radius: 5px;
+}
+
+.navigation>li.active:last-child>a,
+.navigation>li:last-child>a:hover {
+    border-top-right-radius: 5px;
+}
+
+
+/*CONTENIDO*/
+/*AFFIX*/
+.stickit {
+    position: fixed;
+    width: 1140px;
+    z-index: 99;
+    top: 0;
+}
+
+.stickit-end {
+    bottom: 40px;
+    position: absolute;
+    right: 0;
+}
+
+/*________________*/
+.content-home {
+    background-color: #fff;
+    margin-top: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px 50px;
+    margin-top:1em;
+}
+
+.content-home section {
+    position: relative;
+}
+
+.content-home .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.content-home .row h3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+
+/*SINGLE_SLAT*/
+.single-slat .image-single-slat {
+    display: inline-block;
+    float: left;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.single-slat .image-single-slat img {
+    width: 60px;
+    height: 60px;
+}
+
+/*.single-slat .image-single-slat a:hover img{
+  opacity: 0.5;
+}*/
+
+.single-slat .description-single-slat {
+    display: inline-block;
+    margin-left: 10px;
+    width: 80%
+}
+
+.single-slat .description-single-slat h3 {
+    text-align: left;
+    padding: 0;
+    margin-top: 0px;
+}
+
+.single-slat .description-single-slat p {
+    margin: 0;
+}
+
+/*FOOTER*/
+footer {
+    text-align: center;
+}
+
+/*------MEDIAQUERIES------*/
+@media (max-width: 1170px) {
+
+    /*AFFIX*/
+    .stickit {
+        width: 940px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    /*AFFIX*/
+    .stickit {
+        width: 720px;
+    }
+}
+
+@media (max-width: 767px) {
+  .navigation {
+    display: none;
+  }
+    .single-slat .image-single-slat img {
+        width: 50px;
+        height: 50px;
+    }
+
+    body {
+        font-size: 14px;
+
+    }
+     header h1 {
+        font-size: 21px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .navigation {
+        display: none;
+    }
+
+    .logo-header {
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+    }
+
+    .single-slat .image-single-slat img {
+        width: 50px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+   
+
+    body {
+        font-size: 14px;
+
+    }
+    .content-home {
+        padding-top:1em !important;
+    }
+
+    .single-slat .description-single-slat {
+        width: 75%;
+    }
+
+    .list {
+        margin-right: 25%;
+        margin-top: 15px;
+    }
+
+}
