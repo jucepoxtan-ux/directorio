@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-    <title>Icon / Travelinn CO</title>
+    <title>Icon / Travelinn CO@2x</title>
     <desc>Created with Sketch.</desc>
     <g id="Icon-/-Travelinn-CO" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group" transform="translate(10.000000, 10.000000)">
@@ -10,13 +10,10 @@
         </g>
         <g id="icons8-colombia-2" transform="translate(37.000000, 40.000000)" fill-rule="nonzero">
             <g id="icons8-colombia">
-                <polygon id="Path" fill="#FFEEA3" points="0.375 0.375 11.625 0.375 11.625 4.875 0.375 4.875"></polygon>
-                <path d="M11.25,0.75 L11.25,4.5 L0.75,4.5 L0.75,0.75 L11.25,0.75 M12,0 L0,0 L0,5.25 L12,5.25 L12,0 L12,0 Z" id="Shape" fill="#F5C276"></path>
-                <polygon id="Path" fill="#F78F8F" points="0.375 6.375 11.625 6.375 11.625 8.625 0.375 8.625"></polygon>
-                <path d="M11.25,6.75 L11.25,8.25 L0.75,8.25 L0.75,6.75 L11.25,6.75 M12,6 L0,6 L0,9 L12,9 L12,6 L12,6 Z" id="Shape" fill="#C74343"></path>
-                <g id="Group" transform="translate(0.000000, 4.500000)">
-                    <polygon id="Path" fill="#8BB7F0" points="0.375 0.375 11.625 0.375 11.625 1.875 0.375 1.875"></polygon>
-                    <path d="M11.25,0.75 L11.25,1.5 L0.75,1.5 L0.75,0.75 L11.25,0.75 M12,0 L0,0 L0,2.25 L12,2.25 L12,0 L12,0 Z" id="Shape" fill="#4E7AB5"></path>
+                <polygon id="Shape" fill="#F5C276" points="12 0 0 0 0 5.25 12 5.25"></polygon>
+                <polygon id="Shape" fill="#C74343" points="12 6 0 6 0 9 12 9"></polygon>
+                <g id="Group" transform="translate(0.000000, 4.500000)" fill="#4E7AB5">
+                    <polygon id="Shape" points="12 0 0 0 0 2.25 12 2.25"></polygon>
                 </g>
             </g>
         </g>
