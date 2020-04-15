@@ -14,7 +14,6 @@ ul.navigation li a {
     margin-top: 32px;
 }
 
-
 /*Box de item*/
 .card-item-box-big {
     background: white;
@@ -43,7 +42,7 @@ ul.navigation li a {
 .card-item-box-big:hover {
     border-radius: 5px;
     border: 1px solid rgba(175, 175, 175, 0.3);
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,.1);
+    box-shadow:0 8px 18px 0px rgba(197, 197, 197, 0.17);
     transition: box-shadow .2s ease-in-out;
     background: rgba(217, 217, 217, 0.11);
 }
